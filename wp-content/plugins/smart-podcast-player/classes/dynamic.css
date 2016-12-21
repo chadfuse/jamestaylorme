@@ -1,0 +1,33 @@
+/* This file includes the CSS that changes based on the user's selection of */
+/*	color, whether in the player defaults or the shortcode. */
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-controls .spp-play-pause-circle svg,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-1 .spp-playback-controls .spp-play-pause svg {
+	fill: #(($play_pause_color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-eq-svg,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-play-svg {
+	fill: #(($color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-progress-played,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-2 .spp-progress-bar .spp-progress-played,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-2 .spp-progress-bar .spp-seek-time {
+	background-color: #(($color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-elapsed ,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-remaining ,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-2 .spp-progress-bar .spp-time-elapsed,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-2 .spp-progress-bar .spp-time-remaining,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-track-layer-2 .spp-progress-bar .spp-seek-time {
+	color: #((FFF; FFF; 000)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-show-notes a,
+.smart-podcast-player.spp-color-(($color)) .spp-truncated-show-notes a {
+	color: #(($link_color)) (($importantStr));
+}
