@@ -187,6 +187,14 @@ body.altitude-home {
 .elenabae{
 	font-family: 'ElenaWebBasicRegularItalic', serif !important;
 }
+li#menu-item-5754 a {
+    background-color: #f75353;
+    color: white;
+    padding: 10px;
+}
+li#menu-item-5754 a:hover {
+    background-color: #ff7777;
+}
 /*end chads font attacks*/
 a,
 input:focus,
@@ -579,7 +587,7 @@ span.ccsl {
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736 {
     margin-top: 0;
-        margin-left: 6em;
+        margin-left: 20%;
 }
 li#menu-item-5736:hover{
     background: transparent !important;
@@ -597,7 +605,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736 span:a
     transform: scale(.5);
     display: inline-block;
     position: absolute;
-    top: -7px;
+    top: -11px;
     left: 30px;
 }
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736 a{
@@ -766,6 +774,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736 a:hove
 .front-page-4 button{
 	        border-color: #000000;
 	    background-color: #000000;
+      min-width: 250px;
 }
 .front-page-4 .solid-section {
     background: #fff !important;
@@ -790,19 +799,20 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736 a:hove
 }
 .front-page-4 .left-tx {
     float: left;
-    width: 45%;
+    width: 50%;
     text-align: left;
 
 }
 .front-page-4 .left-tx h1{
 	text-transform: uppercase;
-        line-height: 6vw;
+        line-height: 4vw;
     letter-spacing: -1px;
-        font-size: 4vw;
+        font-size: 3vw;
+        color:#18bb9b;
 
 }
 .front-page-4 .right-tx {
-    float;right;
+    float:right;
 }
 .front-page-4 .left-tx h1>span{position: relative;}
 .front-page-4 .left-tx h1>span:after{
@@ -1210,7 +1220,7 @@ div.dark_rounded .pp_close {
 }
 .page.page-id-662 .abt-page-3{
       background-image: url(images/james-bg-2.jpg);
-    background-position: 50% 0;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1221,6 +1231,7 @@ div.dark_rounded .pp_close {
     min-height: 50vw;
     position: relative;
     margin-top:10%;
+    border-top: 3px solid #f4b813;
 }
 .page.page-id-662 .abt-page-3 .frtbx {
     width: 100%;
@@ -1232,9 +1243,9 @@ div.dark_rounded .pp_close {
     text-align: left;
     padding-left: 2em;
     padding-right: 2em;
-    padding: 13px 35px 35px;
+    padding: 53px 35px 35px;
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 2em;
     border:1px solid grey;
 }
@@ -1393,13 +1404,16 @@ div.dark_rounded .pp_close {
 .page.page-id-662 .entry-content .abt-page-8 ul li.blgst{
 	background-image: url(images/jamesglasses.jpg);
 }
-.page.page-id-662 .entry-content .abt-page-8 ul li a{
-	color:white;
-	position: relative;
-	height: 40vw;
+.page.page-id-662 .entry-content .abt-page-8 ul li a {
+    color: white;
+    position: relative;
+    height: 40vw;
     font-size: 1.875rem;
     letter-spacing: 4.5px;
-        display: inherit;
+    display: inherit;
+    padding-top: 80%;
+    font-weight: bold;
+        text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
 .page.page-id-662 .entry-content .abt-page-8 ul li a span{
 	color:white;
@@ -2458,30 +2472,49 @@ Site Navigation
 .genesis-nav-menu a {
 	color: black;
 	display: block;
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	padding: 30px 15px;
 	text-transform: uppercase;
     padding-bottom: 10px;
 }
-.genesis-nav-menu a:hover{
+/*.genesis-nav-menu a:hover{
     color:white !important;
-}
+}*/
 .site-header.dark .genesis-nav-menu a {
 	padding: 20px 15px;
 }
-li.menu-item-has-children a span{
+ul#menu-mainmen li.menu-item-has-children a span{
     position: relative !important;
 }
-li.menu-item-has-children a span:after {
-        content: "\f107";
+ul#menu-mainmen li.menu-item-has-children a:hover{
+    position: relative !important;
+    color:white !important;
+}
+ul#menu-mainmen li.menu-item-has-children a span:after {
+    content: "\f107";
     position: absolute;
-    color: black;
     right: -15px;
     font-family: FontAwesome,sans-serif;
     font-size: 1em;
-    top: 5px;
+    top: 2px;
+}
+ul#menu-mainmen li.menu-item-has-children a span:after:hover {
+    color: white !important;
+}
+ul.sub-menu li a span:after{
+   content:"" !important;
+}
+ul.sub-menu li a span{
+  -webkit-transition: opacity .4s ease-in-out;
+  -moz-transition:    opacity .4s ease-in-out;
+  -ms-transition:     opacity .4s ease-in-out;
+  -o-transition:      opacity .4s ease-in-out;
+  transition:         opacity .4s ease-in-out;
+}
+ul.sub-menu li a span:hover{
+   color:#dd4f4f;
 }
 .genesis-nav-menu li.highlight a:hover::before {
 	color: #fff;
@@ -2504,6 +2537,7 @@ li.menu-item-has-children a span:after {
 
 .genesis-nav-menu > .menu-item > a {
 	text-transform: uppercase;
+  padding-right: 20px;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -2704,15 +2738,13 @@ Content Area
 .front-page-3,*/
 .front-page-5,
 .front-page-7 {
-	background-attachment: fixed;
 	background-color: #fff;
-	background-position: 50% 0;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
 }
-
 .front-page-1 {
 	position: relative;
       height: 100vh;
