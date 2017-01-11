@@ -1549,6 +1549,20 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5736{
 	min-height: 790px;
 	font-size: 2.875rem;
 }
+.coa-page-8 ul > li{
+    float: none;
+    width: 100% !important;
+    min-height: 790px;
+        background-position: 50% 0;
+}
+.coa-page-8 ul li a{
+  min-height: 790px;
+  font-size: 2.875rem;
+}
+.coa-page-8 ul li a span{
+     font-size: 1em;
+
+}
 .page.page-id-662 .abt-page-2{
     max-width: 100%;
 }
